@@ -1,0 +1,32 @@
+{
+  "name": "Majesty ARL — Aurora Blush Petals Entertainment/Competition",
+  "short_name": "Majesty ARL",
+  "description": "Komunitas Voice Acting WhatsApp bertema Dream Serenity. Bloom Fearlessly, Shine Endlessly.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff8fb",
+  "theme_color": "#b8577d",
+  "lang": "id",
+  "categories": ["community", "entertainment", "social"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

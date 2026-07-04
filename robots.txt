@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://majesty-arl.github.io/sitemap.xml

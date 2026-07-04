@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Majesty ARL — Aurora Blush Petals Entertainment/Competition</title>
+<meta name="description" content="Majesty ARL (Aurora Blush Petals Entertainment/Competition) adalah komunitas Voice Acting WhatsApp bertema Dream Serenity. Bloom Fearlessly, Shine Endlessly. Gabung kompetisi, event, dan komunitas voice actor kami.">
+<meta name="keywords" content="Majesty ARL, Aurora Blush Petals, Voice Acting, VCJ, komunitas voice acting, WhatsApp community, kompetisi voice acting, VA Indonesia">
+<meta name="author" content="Majesty ARL — Aurora Blush Petals Entertainment/Competition">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://majesty-arl.github.io/">
+<meta name="theme-color" content="#b8577d">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Majesty ARL — Aurora Blush Petals Entertainment/Competition">
+<meta property="og:description" content="Bloom Fearlessly, Shine Endlessly. Komunitas Voice Acting WhatsApp bertema Dream Serenity — kompetisi, event, dan kolaborasi kreatif.">
+<meta property="og:image" content="https://majesty-arl.github.io/assets/images/logo/majesty-arl-logo-512.jpg">
+<meta property="og:url" content="https://majesty-arl.github.io/">
+<meta property="og:site_name" content="Majesty ARL">
+<meta property="og:locale" content="id_ID">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Majesty ARL — Aurora Blush Petals Entertainment/Competition">
+<meta name="twitter:description" content="Bloom Fearlessly, Shine Endlessly. Komunitas Voice Acting WhatsApp bertema Dream Serenity.">
+<meta name="twitter:image" content="https://majesty-arl.github.io/assets/images/logo/majesty-arl-logo-512.jpg">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
+
+<!-- Performance: preconnect & preload -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/images/logo/majesty-arl-logo-192.jpg">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Quicksand:wght@400;500;600;700&family=Dancing+Script:wght@600;700&display=swap">
+
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Majesty ARL (Aurora Blush Petals Entertainment/Competition)",
+  "alternateName": "Aurora Blush Petals",
+  "url": "https://majesty-arl.github.io/",
+  "logo": "https://majesty-arl.github.io/assets/images/logo/majesty-arl-logo-512.jpg",
+  "description": "Komunitas Voice Acting berbasis WhatsApp dengan tema Dream Serenity, menyelenggarakan kompetisi dan event kreatif bagi para voice actor.",
+  "slogan": "Bloom Fearlessly, Shine Endlessly",
+  "sameAs": [
+    "https://whatsapp.com/channel/majesty-arl",
+    "https://www.tiktok.com/@majesty.arl"
+  ]
+}
+</script>
+</head>
+<body>
+
+<a href="#main" class="skip-link">Lompat ke konten utama</a>
+
+<!-- Loading Screen -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-petal"></div>
+  <span>Majesty ARL</span>
+</div>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="container">
+    <a href="#home" class="brand" aria-label="Majesty ARL — kembali ke beranda">
+      <img src="assets/images/logo/majesty-arl-logo-192.jpg" alt="Logo Majesty ARL (Aurora Blush Petals)" width="42" height="42">
+      <span class="brand-text">
+        Majesty ARL
+        <span class="brand-sub">Aurora Blush Petals</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Navigasi utama">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#team">Team</a>
+      <a href="#competition">Competition</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#event">Event</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#join" class="btn btn-whatsapp btn-sm nav-cta">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.6 8.7-8.2 8.7z"/></svg>
+      Join WhatsApp
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="mobileMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<nav class="mobile-menu" id="mobileMenu" aria-label="Navigasi mobile">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#team">Team</a>
+  <a href="#competition">Competition</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#event">Event</a>
+  <a href="#faq">FAQ</a>
+  <a href="#contact">Contact</a>
+  <a href="#join" class="btn btn-whatsapp">Join WhatsApp</a>
+</nav>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/images/background/hero-poster.jpg" aria-hidden="true">
+      <source src="assets/video/aurora-blush-petals-intro.mp4" type="video/mp4">
+    </video>
+    <canvas id="petal-canvas" aria-hidden="true"></canvas>
+
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-badge reveal" style="--i:0">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2L12 16.4 5.7 21l2.3-7.2-6-4.6h7.6z"/></svg>
+          Komunitas Voice Acting WhatsApp
+        </span>
+        <h1 class="hero-title reveal" style="--i:1">
+          Majesty ARL
+          <span class="script">Dream Serenity</span>
+        </h1>
+        <p class="hero-tagline reveal" style="--i:2">
+          Aurora Blush Petals Entertainment/Competition — rumah bagi voice actor untuk berkarya, berkompetisi,
+          dan bertumbuh bersama dalam nuansa yang lembut, elegan, dan penuh warna.
+        </p>
+        <div class="hero-actions reveal" style="--i:3">
+          <a href="#join" class="btn btn-whatsapp">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.6 8.7-8.2 8.7z"/></svg>
+            Gabung WhatsApp Channel
+          </a>
+          <a href="#competition" class="btn btn-outline">
+            Lihat Kompetisi
+          </a>
+        </div>
+
+        <div class="hero-stats reveal" style="--i:4">
+          <div class="stat">
+            <div class="stat-num" data-counter data-target="6">0</div>
+            <div class="stat-label">Staff Aktif</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-counter data-target="6">0</div>
+            <div class="stat-label">Kompetisi</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" data-counter data-target="100">0</div>
+            <div class="stat-label">% Dream Serenity</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Gulir ke bawah">
+      <span>Scroll</span>
+      <span class="dot"></span>
+    </a>
+  </section>
+
+  <svg class="divider" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,32 C240,60 480,0 720,20 C960,40 1200,60 1440,28 L1440,60 L0,60 Z"></path>
+  </svg>
+
+  <!-- ============ QUICK NAV ============ -->
+  <nav class="quick-nav bg-surface" aria-label="Navigasi cepat">
+    <div class="container">
+      <div class="quick-nav-grid">
+        <a href="#about" class="quick-link reveal-scale" style="--i:0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l3 6 6 .9-4.5 4.3 1 6.3L12 16.5 6.5 19.5l1-6.3L3 8.9 9 8z"/></svg>
+          Tentang Kami
+        </a>
+        <a href="#team" class="quick-link reveal-scale" style="--i:1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="8" r="3.4"/><path d="M4.5 20c1.6-3.6 4.4-5.4 7.5-5.4s5.9 1.8 7.5 5.4"/></svg>
+          Tim Kami
+        </a>
+        <a href="#gallery" class="quick-link reveal-scale" style="--i:2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="M21 16l-5-5-4 4-3-3-6 6"/></svg>
+          Galeri
+        </a>
+        <a href="#join" class="quick-link reveal-scale" style="--i:3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7.5-4.6-10-9.3C.6 8.4 2.4 5 6 5c2 0 3.3 1 4 2.2C10.7 6 12 5 14 5c3.6 0 5.4 3.4 4 6.7C19.5 16.4 12 21 12 21z"/></svg>
+          Gabung Sekarang
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section bg-surface" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-media reveal-scale">
+          <img src="assets/images/logo/majesty-arl-logo.jpg" alt="Identitas visual Aurora Blush Petals — Majesty ARL" loading="lazy" width="640" height="640">
+          <span class="about-badge">Sejak Berdiri &middot; Dream Serenity</span>
+          <p class="about-media-caption">"Bloom Fearlessly, Shine Endlessly"</p>
+        </div>
+
+        <div>
+          <div class="section-head align-left">
+            <span class="eyebrow">Tentang Komunitas</span>
+            <h2 class="section-title">Cerita di Balik <em>Majesty ARL</em></h2>
+            <p class="section-lead">
+              Majesty ARL — Aurora Blush Petals Entertainment/Competition (ARL) — lahir dari keinginan sekelompok
+              pecinta voice acting untuk memiliki ruang yang hangat, suportif, dan estetik untuk berkarya. Dibangun
+              di atas WhatsApp sebagai pusat komunitas, Majesty ARL tumbuh menjadi rumah bagi para pengisi suara,
+              pembaca naskah, dan kreator yang ingin bersinar dengan caranya sendiri.
+            </p>
+          </div>
+
+          <div class="pillars">
+            <div class="pillar reveal" style="--i:0">
+              <span class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l1.9 4.5L18 9l-4.1 1.5L12 15l-1.9-4.5L6 9l4.1-1.5z"/><path d="M19 15l.8 1.9L21.7 18l-1.9.8-.8 1.9-.8-1.9-1.9-.8 1.9-.8z"/></svg>
+              </span>
+              <div>
+                <h3>Visi</h3>
+                <p>Menjadi komunitas voice acting yang nyaman, inklusif, dan menginspirasi setiap anggotanya untuk terus berkembang tanpa rasa takut.</p>
+              </div>
+            </div>
+            <div class="pillar reveal" style="--i:1">
+              <span class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.6-10-9.3C.6 8.4 2.4 5 6 5c2 0 3.3 1 4 2.2C10.7 6 12 5 14 5c3.6 0 5.4 3.4 4 6.7C19.5 16.4 12 21 12 21z"/></svg>
+              </span>
+              <div>
+                <h3>Misi</h3>
+                <p>Menghadirkan wadah kompetisi, apresiasi, dan kolaborasi kreatif yang membangun kepercayaan diri serta portofolio anggota.</p>
+              </div>
+            </div>
+            <div class="pillar reveal" style="--i:2">
+              <span class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V6a2 2 0 0 1 2-2h11a1 1 0 0 1 1 1v14"/><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H18"/></svg>
+              </span>
+              <div>
+                <h3>Sejarah Singkat</h3>
+                <p>Berawal dari grup WhatsApp kecil, Majesty ARL berkembang dengan struktur kepengurusan, kompetisi rutin, dan identitas visual Aurora Blush Petals yang khas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="dream-serenity reveal-scale">
+        <h3>Dream Serenity</h3>
+        <p>
+          Dream Serenity adalah jiwa dari setiap sudut Majesty ARL — ketenangan yang lembut namun penuh warna,
+          ruang aman untuk bermimpi besar sekaligus tumbuh perlahan. Di sinilah setiap suara punya tempat untuk
+          didengar, setiap karya punya ruang untuk dirayakan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section class="section bg-alt" id="team">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Kenali Kami</span>
+        <h2 class="section-title">Tim di Balik <em>Majesty ARL</em></h2>
+        <p class="section-lead">Barisan pengurus yang merawat komunitas ini dengan hati, konsistensi, dan cinta pada dunia voice acting.</p>
+      </div>
+
+      <div class="team-filters" role="tablist" aria-label="Filter tim berdasarkan divisi">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Semua</button>
+        <button class="filter-btn" data-filter="founder" role="tab" aria-selected="false">Founder</button>
+        <button class="filter-btn" data-filter="secretary" role="tab" aria-selected="false">Secretary</button>
+        <button class="filter-btn" data-filter="editor" role="tab" aria-selected="false">Editor</button>
+        <button class="filter-btn" data-filter="promotion" role="tab" aria-selected="false">Promotion</button>
+        <button class="filter-btn" data-filter="staff" role="tab" aria-selected="false">Staff</button>
+      </div>
+
+      <div class="team-grid">
+        <article class="team-card reveal" data-role="founder" style="--i:0">
+          <div class="team-photo">
+            <img src="assets/images/team/ashkym.jpg" alt="Foto Ashkym, Founder Majesty ARL" loading="lazy" width="600" height="600">
+            <span class="team-role-tag">Founder</span>
+          </div>
+          <div class="team-info">
+            <h3>Ashkym</h3>
+            <p class="team-role">Founder</p>
+            <p class="team-quote">"Setiap suara berhak untuk bersinar."</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-role="founder" style="--i:1">
+          <div class="team-photo">
+            <img src="assets/images/team/eresh.jpg" alt="Foto Eresh, Wakil Founder Majesty ARL" loading="lazy" width="600" height="600">
+            <span class="team-role-tag">W. Founder</span>
+          </div>
+          <div class="team-info">
+            <h3>Eresh</h3>
+            <p class="team-role">Wakil Founder</p>
+            <p class="team-quote">"Bertumbuh bersama, bersinar bersama."</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-role="secretary" style="--i:2">
+          <div class="team-photo">
+            <img src="assets/images/team/nadiah.jpg" alt="Foto Nadiah, Secretary Majesty ARL" loading="lazy" width="600" height="600">
+            <span class="team-role-tag">Secretary</span>
+          </div>
+          <div class="team-info">
+            <h3>Nadiah</h3>
+            <p class="team-role">Secretary</p>
+            <p class="team-quote">"Rapi dalam catatan, hangat dalam pelayanan."</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-role="editor" style="--i:3">
+          <div class="team-photo">
+            <img src="assets/images/team/dira.jpg" alt="Foto Dira, Editor Majesty ARL" loading="lazy" width="600" height="600">
+            <span class="team-role-tag">Editor</span>
+          </div>
+          <div class="team-info">
+            <h3>Dira</h3>
+            <p class="team-role">Editor</p>
+            <p class="team-quote">"Merangkai visual, menghidupkan cerita."</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-role="promotion" style="--i:4">
+          <div class="team-photo">
+            <img src="assets/images/team/pandu.jpg" alt="Foto Pandu, Promotion Majesty ARL" loading="lazy" width="600" height="600">
+            <span class="team-role-tag">Promotion</span>
+          </div>
+          <div class="team-info">
+            <h3>Pandu</h3>
+            <p class="team-role">Promotion</p>
+            <p class="team-quote">"Menyebarkan cerita Majesty ARL lebih luas."</p>
+          </div>
+        </article>
+
+        <article class="team-card reveal" data-role="staff" style="--i:5">
+          <div class="team-photo">
+            <img src="assets/images/team/zeru.jpg" alt="Foto Zeru, Staff Majesty ARL" loading="lazy" width="600" height="600">
+            <span class="team-role-tag">Staff</span>
+          </div>
+          <div class="team-info">
+            <h3>Zeru</h3>
+            <p class="team-role">Staff</p>
+            <p class="team-quote">"Siap membantu di setiap kegiatan komunitas."</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPETITION ============ -->
+  <section class="section bg-surface" id="competition">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Ajang Kompetisi</span>
+        <h2 class="section-title">Kompetisi di <em>Majesty ARL</em></h2>
+        <p class="section-lead">Ruang untuk unjuk kemampuan, mengasah karakter suara, dan mendapatkan apresiasi dari komunitas.</p>
+      </div>
+
+      <div class="comp-grid">
+        <article class="comp-card featured reveal" style="--i:0">
+          <span class="comp-badge-gold">Mingguan</span>
+          <span class="comp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 21h8M12 17v4M7 4h10v4a5 5 0 0 1-10 0V4z"/><path d="M7 6H4a1 1 0 0 0-1 1c0 2.5 2 4 4.2 4.3M17 6h3a1 1 0 0 1 1 1c0 2.5-2 4-4.2 4.3"/></svg>
+          </span>
+          <h3>Best VCJ of The Week</h3>
+          <p>Apresiasi mingguan untuk Voice Character Job terbaik yang menunjukkan penjiwaan karakter paling kuat.</p>
+          <div class="comp-meta"><span class="tag">Mingguan</span><span class="tag">Sertifikat</span></div>
+        </article>
+
+        <article class="comp-card featured reveal" style="--i:1">
+          <span class="comp-badge-gold">Bulanan</span>
+          <span class="comp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2L12 16.4 5.7 21l2.3-7.2-6-4.6h7.6z"/></svg>
+          </span>
+          <h3>Best Member of The Month</h3>
+          <p>Penghargaan bulanan bagi member paling aktif, kontributif, dan membawa energi positif untuk komunitas.</p>
+          <div class="comp-meta"><span class="tag">Bulanan</span><span class="tag">Poster Winner</span></div>
+        </article>
+
+        <article class="comp-card reveal" style="--i:2">
+          <span class="comp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="9" cy="8" r="3.2"/><circle cx="17" cy="9" r="2.6"/><path d="M3 19c.6-3 2.8-4.6 6-4.6s5.4 1.6 6 4.6"/><path d="M15 14.6c2.3.2 3.9 1.6 4.4 3.9"/></svg>
+          </span>
+          <h3>Best Partner Reading Script</h3>
+          <p>Kompetisi duet pembacaan naskah yang menilai kekompakan chemistry dan keselarasan antar partner.</p>
+          <div class="comp-meta"><span class="tag">Duo</span><span class="tag">E-Certificate</span></div>
+        </article>
+
+        <article class="comp-card reveal" style="--i:3">
+          <span class="comp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 18c3.3 0 6-1 6-3.4V8.4C18 6 15.3 5 12 5s-6 1-6 3.4v6.2C6 17 8.7 18 12 18z"/><path d="M9 9.6c.8.5 1.9.8 3 .8s2.2-.3 3-.8"/></svg>
+          </span>
+          <h3>Best Script Reader</h3>
+          <p>Menyoroti kualitas artikulasi, intonasi, dan penghayatan individu dalam membacakan naskah.</p>
+          <div class="comp-meta"><span class="tag">Individu</span><span class="tag">E-Certificate</span></div>
+        </article>
+
+        <article class="comp-card reveal" style="--i:4">
+          <span class="comp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19.5z"/><path d="M9 13h6M9 17h4"/></svg>
+          </span>
+          <h3>Best Script</h3>
+          <p>Apresiasi bagi penulis naskah dengan alur cerita, dialog, dan karakter paling kuat serta orisinal.</p>
+          <div class="comp-meta"><span class="tag">Naskah</span><span class="tag">Free Promotion</span></div>
+        </article>
+
+        <article class="comp-card reveal" style="--i:5">
+          <span class="comp-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l2.6 5.9L21 9.6l-4.6 4.1L17.6 21 12 17.6 6.4 21l1.2-7.3L3 9.6l6.4-.7z"/></svg>
+          </span>
+          <h3>Special Competition</h3>
+          <p>Kompetisi tematik musiman dengan format kejutan — dirancang khusus untuk momen dan perayaan tertentu.</p>
+          <div class="comp-meta"><span class="tag">Musiman</span><span class="tag">Hadiah Spesial</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BENEFITS ============ -->
+  <section class="section bg-alt" id="benefits">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Kenapa Bergabung</span>
+        <h2 class="section-title">Benefit untuk <em>Setiap Anggota</em></h2>
+        <p class="section-lead">Lebih dari sekadar komunitas — Majesty ARL memberi ruang untuk berkembang secara nyata.</p>
+      </div>
+
+      <div class="benefit-grid">
+        <div class="benefit-card reveal" style="--i:0">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V6a2 2 0 0 1 2-2h9l5 5v10.5a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 4 19.5z"/><path d="m8.5 13 2 2 4-4.5"/></svg></span>
+          <h3>E-Certificate</h3>
+          <p>Sertifikat digital resmi untuk setiap pencapaian dan partisipasi kompetisi.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:1">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12a8 8 0 1 0 16 0 8 8 0 1 0-16 0z"/><path d="M4 12h16M12 4a12 12 0 0 1 0 16 12 12 0 0 1 0-16z"/></svg></span>
+          <h3>Free Promotion</h3>
+          <p>Promosi gratis untuk karya, akun, maupun konten anggota melalui kanal komunitas.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:2">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 4v16M4 9h4"/></svg></span>
+          <h3>Winner Poster</h3>
+          <p>Poster kemenangan estetik yang dipublikasikan untuk merayakan pencapaianmu.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:3">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="8" r="2.4"/><path d="M2.5 19c.6-3 2.8-4.6 5.5-4.6s4.9 1.6 5.5 4.6"/><path d="M14.5 14.6c2 .3 3.4 1.6 3.9 3.9"/></svg></span>
+          <h3>Networking</h3>
+          <p>Terhubung dengan sesama voice actor, partner baca naskah, dan kreator lainnya.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:4">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7.5-4.6-10-9.3C.6 8.4 2.4 5 6 5c2 0 3.3 1 4 2.2C10.7 6 12 5 14 5c3.6 0 5.4 3.4 4 6.7C19.5 16.4 12 21 12 21z"/></svg></span>
+          <h3>Community Support</h3>
+          <p>Lingkungan suportif yang saling menyemangati dalam proses berkarya.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:5">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3v3M12 18v3M4.2 4.2l2.2 2.2M17.6 17.6l2.2 2.2M3 12h3M18 12h3M4.2 19.8l2.2-2.2M17.6 6.4l2.2-2.2"/><circle cx="12" cy="12" r="3.2"/></svg></span>
+          <h3>Creative Collaboration</h3>
+          <p>Kesempatan kolaborasi lintas divisi: voice acting, editing, hingga penulisan naskah.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:6">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2L12 16.4 5.7 21l2.3-7.2-6-4.6h7.6z"/></svg></span>
+          <h3>Recognition</h3>
+          <p>Pengakuan atas dedikasi dan kualitas karya melalui apresiasi rutin komunitas.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:7">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3 9h18M8 14h4"/></svg></span>
+          <h3>Exclusive Event</h3>
+          <p>Akses ke event eksklusif yang hanya diadakan untuk anggota Majesty ARL.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:8">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span>
+          <h3>Learning Experience</h3>
+          <p>Sharing session dan tips seputar teknik vokal, akting suara, dan produksi audio.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:9">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 18c3.3 0 6-1 6-3.4V8.4C18 6 15.3 5 12 5s-6 1-6 3.4v6.2C6 17 8.7 18 12 18z"/></svg></span>
+          <h3>Voice Acting Practice</h3>
+          <p>Ruang latihan rutin untuk mengasah teknik dan gaya vokal secara konsisten.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:10">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2.5"/><circle cx="8.5" cy="9.5" r="1.6"/><path d="M21 16l-5-5-4 4-3-3-6 6"/></svg></span>
+          <h3>Creative Portfolio</h3>
+          <p>Kumpulan karya dan pencapaian yang bisa dijadikan portofolio nyata.</p>
+        </div>
+        <div class="benefit-card reveal" style="--i:11">
+          <span class="benefit-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="9" r="4.2"/><path d="M7 21l-1-6 3.5-1.5M17 21l1-6-3.5-1.5"/></svg></span>
+          <h3>Badge Pencapaian</h3>
+          <p>Lencana eksklusif sebagai simbol perjalanan dan pencapaianmu di komunitas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section bg-surface" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Dokumentasi</span>
+        <h2 class="section-title">Galeri <em>Majesty ARL</em></h2>
+        <p class="section-lead">Sekilas wajah dan identitas visual Aurora Blush Petals — klik gambar untuk memperbesar.</p>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <figure class="gallery-item reveal-scale" style="--i:0" data-full="assets/images/logo/majesty-arl-logo.jpg" data-caption="Identitas Visual — Aurora Blush Petals">
+          <img src="assets/images/logo/majesty-arl-logo-512.jpg" alt="Identitas visual Aurora Blush Petals" loading="lazy" width="512" height="512">
+          <figcaption class="gallery-overlay">Identitas Visual</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:1" data-full="assets/images/team/ashkym.jpg" data-caption="Ashkym — Founder">
+          <img src="assets/images/team/ashkym-sm.jpg" alt="Ashkym, Founder Majesty ARL" loading="lazy" width="300" height="300">
+          <figcaption class="gallery-overlay">Ashkym — Founder</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:2" data-full="assets/images/team/dira.jpg" data-caption="Dira — Editor">
+          <img src="assets/images/team/dira-sm.jpg" alt="Dira, Editor Majesty ARL" loading="lazy" width="300" height="300">
+          <figcaption class="gallery-overlay">Dira — Editor</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:3" data-full="assets/images/team/eresh.jpg" data-caption="Eresh — Wakil Founder">
+          <img src="assets/images/team/eresh-sm.jpg" alt="Eresh, Wakil Founder Majesty ARL" loading="lazy" width="300" height="300">
+          <figcaption class="gallery-overlay">Eresh — W. Founder</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:4" data-full="assets/images/team/nadiah.jpg" data-caption="Nadiah — Secretary">
+          <img src="assets/images/team/nadiah-sm.jpg" alt="Nadiah, Secretary Majesty ARL" loading="lazy" width="300" height="300">
+          <figcaption class="gallery-overlay">Nadiah — Secretary</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:5" data-full="assets/images/team/pandu.jpg" data-caption="Pandu — Promotion">
+          <img src="assets/images/team/pandu-sm.jpg" alt="Pandu, Promotion Majesty ARL" loading="lazy" width="300" height="300">
+          <figcaption class="gallery-overlay">Pandu — Promotion</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:6" data-full="assets/images/team/zeru.jpg" data-caption="Zeru — Staff">
+          <img src="assets/images/team/zeru-sm.jpg" alt="Zeru, Staff Majesty ARL" loading="lazy" width="300" height="300">
+          <figcaption class="gallery-overlay">Zeru — Staff</figcaption>
+        </figure>
+        <figure class="gallery-item reveal-scale" style="--i:7" data-full="assets/images/background/hero-poster.jpg" data-caption="Aurora Blush Petals — Moodboard">
+          <img src="assets/images/background/hero-poster.jpg" alt="Moodboard tema Aurora Blush Petals" loading="lazy" width="720" height="720">
+          <figcaption class="gallery-overlay">Moodboard Dream Serenity</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Pratinjau gambar">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Tutup pratinjau">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Gambar sebelumnya">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <figure>
+      <img id="lightboxImg" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Gambar berikutnya">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+
+  <!-- ============ EVENT ============ -->
+  <section class="section bg-alt" id="event">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Agenda</span>
+        <h2 class="section-title">Event <em>Majesty ARL</em></h2>
+        <p class="section-lead">Ikuti perjalanan event komunitas — dari yang akan datang hingga yang sudah usai.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal" style="--i:0">
+          <span class="timeline-dot"></span>
+          <div class="timeline-card">
+            <span class="timeline-status status-upcoming">Upcoming</span>
+            <h3>Grand Launching Competition Season</h3>
+            <span class="timeline-date">Segera Diumumkan</span>
+            <p>Pembukaan musim kompetisi terbaru dengan seluruh kategori: VCJ, Reading Script, hingga Special Competition.</p>
+          </div>
+        </div>
+        <div class="timeline-item running reveal" style="--i:1">
+          <span class="timeline-dot"></span>
+          <div class="timeline-card">
+            <span class="timeline-status status-running">Running</span>
+            <h3>Best VCJ of The Week — Batch Berjalan</h3>
+            <span class="timeline-date">Berlangsung Setiap Minggu</span>
+            <p>Kompetisi mingguan yang sedang berjalan, terbuka untuk seluruh member aktif Majesty ARL.</p>
+          </div>
+        </div>
+        <div class="timeline-item finished reveal" style="--i:2">
+          <span class="timeline-dot"></span>
+          <div class="timeline-card">
+            <span class="timeline-status status-finished">Finished</span>
+            <h3>Best Member of The Month — Edisi Perdana</h3>
+            <span class="timeline-date">Selesai</span>
+            <p>Edisi perdana penghargaan bulanan telah usai, mengapresiasi member paling aktif dan kontributif.</p>
+          </div>
+        </div>
+        <div class="timeline-item finished reveal" style="--i:3">
+          <span class="timeline-dot"></span>
+          <div class="timeline-card">
+            <span class="timeline-status status-finished">Finished</span>
+            <h3>Peluncuran Identitas Aurora Blush Petals</h3>
+            <span class="timeline-date">Selesai</span>
+            <p>Momen pengenalan resmi identitas visual dan tema Dream Serenity kepada seluruh anggota komunitas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PARTNERS ============ -->
+  <section class="section bg-surface" id="partners">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Kolaborasi</span>
+        <h2 class="section-title">Partner &amp; <em>Kolaborasi</em></h2>
+        <p class="section-lead">Majesty ARL terbuka untuk menjalin kolaborasi dengan komunitas lain yang sevisi.</p>
+      </div>
+
+      <div class="partner-panel reveal-scale">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="8" cy="8" r="3.2"/><circle cx="17" cy="9" r="2.6"/><path d="M3 19c.6-3 2.8-4.6 6-4.6s5.4 1.6 6 4.6"/><path d="M15 14.6c2.3.2 3.9 1.6 4.4 3.9"/></svg>
+        <h3>Open for Collaboration</h3>
+        <p>
+          Saat ini Majesty ARL sedang membuka kesempatan kolaborasi bagi komunitas voice acting, roleplay, maupun
+          komunitas kreatif lain. Jika komunitasmu tertarik menjalin kerja sama atau menjadi partner resmi,
+          silakan hubungi tim kami melalui WhatsApp.
+        </p>
+        <a href="#contact" class="btn btn-primary">Ajukan Kolaborasi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section bg-alt" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Pertanyaan Umum</span>
+        <h2 class="section-title">Frequently Asked <em>Questions</em></h2>
+        <p class="section-lead">Beberapa pertanyaan yang paling sering ditanyakan seputar Majesty ARL.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apa itu Majesty ARL?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Majesty ARL (Aurora Blush Petals Entertainment/Competition) adalah komunitas Voice Acting berbasis WhatsApp yang mengusung tema Dream Serenity — ruang berkarya yang lembut, elegan, dan suportif.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Bagaimana cara bergabung dengan Majesty ARL?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Kamu bisa bergabung dengan menekan tombol "Join WhatsApp" di halaman ini, yang akan mengarahkanmu ke WhatsApp Channel atau grup resmi komunitas.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apakah website ini menggantikan WhatsApp?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Tidak. Website ini hanya berfungsi sebagai landing page, company profile, dan pusat informasi. Seluruh aktivitas komunitas tetap berpusat di WhatsApp.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apa saja kompetisi yang tersedia?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Tersedia enam kategori utama: Best VCJ of The Week, Best Member of The Month, Best Partner Reading Script, Best Script Reader, Best Script, dan Special Competition musiman.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apakah kompetisi ini berbayar?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Informasi biaya atau ketentuan pendaftaran tiap kompetisi akan diumumkan langsung melalui WhatsApp Channel resmi Majesty ARL.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apa keuntungan menjadi anggota?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Anggota memperoleh E-Certificate, Free Promotion, Winner Poster, kesempatan networking, exclusive event, hingga pengalaman belajar voice acting bersama komunitas.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Siapa saja yang bisa bergabung?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Siapa pun yang tertarik pada dunia voice acting, roleplay, maupun dunia kreatif berbasis suara — tanpa batasan usia tertentu selama sesuai ketentuan WhatsApp.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Bagaimana cara mengikuti kompetisi?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Pengumuman dan mekanisme pendaftaran setiap kompetisi akan dibagikan secara berkala melalui WhatsApp Channel dan grup komunitas.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apakah Majesty ARL menerima partner atau kolaborasi?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Tentu. Majesty ARL terbuka untuk kolaborasi dengan komunitas lain. Silakan hubungi tim kami melalui halaman Contact.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Bagaimana cara menghubungi pengurus?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Kamu dapat menghubungi Founder, Co-Founder, maupun tim Promotion melalui informasi kontak yang tersedia pada bagian Contact di halaman ini.</div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Apakah ada media sosial resmi selain WhatsApp?
+            <span class="icon-plus"></span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">Ya, Majesty ARL juga hadir di TikTok dan WhatsApp Channel resmi untuk memudahkan anggota mendapatkan informasi terbaru.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section bg-surface" id="contact">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Hubungi Kami</span>
+        <h2 class="section-title">Contact <em>Majesty ARL</em></h2>
+        <p class="section-lead">Ada pertanyaan, kolaborasi, atau ingin bergabung? Sapa kami melalui kontak berikut.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal" style="--i:0">
+          <img src="assets/images/team/ashkym-sm.jpg" alt="" class="contact-avatar" loading="lazy" width="58" height="58">
+          <div class="contact-info">
+            <h3>Ashkym</h3>
+            <p class="role">Founder</p>
+          </div>
+        </div>
+        <div class="contact-card reveal" style="--i:1">
+          <img src="assets/images/team/eresh-sm.jpg" alt="" class="contact-avatar" loading="lazy" width="58" height="58">
+          <div class="contact-info">
+            <h3>Eresh</h3>
+            <p class="role">Wakil Founder</p>
+          </div>
+        </div>
+        <div class="contact-card reveal" style="--i:2">
+          <img src="assets/images/team/pandu-sm.jpg" alt="" class="contact-avatar" loading="lazy" width="58" height="58">
+          <div class="contact-info">
+            <h3>Pandu</h3>
+            <p class="role">Promotion</p>
+          </div>
+        </div>
+        <div class="contact-card reveal" style="--i:3">
+          <img src="assets/images/team/nadiah-sm.jpg" alt="" class="contact-avatar" loading="lazy" width="58" height="58">
+          <div class="contact-info">
+            <h3>Nadiah</h3>
+            <p class="role">Secretary</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-links">
+        <a href="#join" class="social-pill">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.6 8.7-8.2 8.7z"/></svg>
+          WhatsApp Channel
+        </a>
+        <a href="https://www.tiktok.com/@majesty.arl" class="social-pill" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 3c.4 2.2 2 3.8 4.2 4v2.8a7 7 0 0 1-4.2-1.4v6.4a5.6 5.6 0 1 1-5-5.6v2.9a2.7 2.7 0 1 0 2.2 2.7V3H14z"/></svg>
+          TikTok Resmi
+        </a>
+        <a href="#join" class="social-pill">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v10H7l-3 3z"/></svg>
+          Official Channel
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ JOIN CTA ============ -->
+  <section class="join-cta" id="join">
+    <div class="container">
+      <span class="hero-badge" style="background:rgba(255,255,255,0.18); color:#fff; border-color:rgba(255,255,255,0.4);">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.2H22l-6 4.6 2.3 7.2L12 16.4 5.7 21l2.3-7.2-6-4.6h7.6z"/></svg>
+        Bloom Fearlessly, Shine Endlessly
+      </span>
+      <h2>Siap Bersinar Bersama Majesty ARL?</h2>
+      <p>Gabung sekarang dan jadi bagian dari komunitas Voice Acting dengan nuansa Dream Serenity yang hangat dan penuh apresiasi.</p>
+      <div class="join-cta-actions">
+        <a href="https://whatsapp.com/channel/majesty-arl" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.6 8.7-8.2 8.7z"/></svg>
+          Gabung WhatsApp Channel
+        </a>
+        <a href="#team" class="btn btn-ghost-light">Kenali Tim Kami</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/images/logo/majesty-arl-logo-192.jpg" alt="Logo Majesty ARL" loading="lazy" width="44" height="44">
+          <span>Majesty ARL</span>
+        </div>
+        <p class="tagline">Bloom Fearlessly, Shine Endlessly</p>
+        <p class="footer-desc">Aurora Blush Petals Entertainment/Competition — komunitas Voice Acting WhatsApp bertema Dream Serenity.</p>
+        <div class="footer-social">
+          <a href="#join" aria-label="WhatsApp Majesty ARL">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.6 8.7-8.2 8.7z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@majesty.arl" target="_blank" rel="noopener noreferrer" aria-label="TikTok Majesty ARL">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 3c.4 2.2 2 3.8 4.2 4v2.8a7 7 0 0 1-4.2-1.4v6.4a5.6 5.6 0 1 1-5-5.6v2.9a2.7 2.7 0 1 0 2.2 2.7V3H14z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigasi</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#competition">Competition</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Informasi</h4>
+        <ul>
+          <li><a href="#event">Event</a></li>
+          <li><a href="#partners">Partners</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Bergabung</h4>
+        <ul>
+          <li><a href="#join">Join WhatsApp</a></li>
+          <li><a href="https://www.tiktok.com/@majesty.arl" target="_blank" rel="noopener noreferrer">TikTok Resmi</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Majesty ARL — Aurora Blush Petals Entertainment/Competition. Seluruh hak identitas visual dimiliki oleh komunitas.</p>
+      <p>Dibuat dengan &#10084; untuk komunitas Voice Acting Indonesia.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="#join" class="float-wa" aria-label="Gabung WhatsApp Majesty ARL">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.6.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5C10 9 9.5 7.6 9.3 7c-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.8-1.5C8.3 21.5 10.1 22 12 22c5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.2c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.2 1 1-3.1-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.7 3.8-8.5 8.5-8.5s8.5 3.8 8.5 8.5-3.6 8.7-8.2 8.7z"/></svg>
+</a>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
